@@ -63,7 +63,7 @@
               <div class="circle-shape bg-primary text-white">
                 <span class="mai-shield-checkmark"></span>
               </div>
-              <p><span>xxx</span> muolajasi</p>
+              <p><span>Sog`lom-Hayot</span> muolajasi</p>
             </div>
           </div>
           <div class="col-md-4 py-3 py-md-0">
@@ -71,7 +71,7 @@
               <div class="circle-shape bg-accent text-white">
                 <span class="mai-basket"></span>
               </div>
-              <p><span>xxx</span> Dorixonasi</p>
+              <p><span>Sog`lom-Hayot</span> Dorixonasi</p>
             </div>
           </div>
         </div>
