@@ -92,7 +92,7 @@ class AdminController extends Controller
                 $data=Appointment::find($id);
                 $data->status='Tasdiqlandi';
                 $data->save();
-                return redirect()->back();
+                return redirect('showappointment');
             }
             else
             {
@@ -115,7 +115,7 @@ class AdminController extends Controller
                 $data=Appointment::find($id);
                 $data->status='Rad etildi';
                 $data->save();
-                return redirect()->back();
+                return redirect('showappointment');
             }
             else
             {

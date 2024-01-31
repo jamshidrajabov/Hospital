@@ -37,19 +37,9 @@
         
         <div  class="container-fluid page-body-wrapper">
          
-         <h1 style="text-align: center">Murojat haqida ma`lumot</h1>
-         <table class="table">
-          <tr>
-            <td>
-              <a style="width:200px" class="btn btn-success" style="color: green; font-size:17px;" href="{{url('approved',$appoints->id)}}">Tasdiqlash</a>
-              <br><br>
-               <a style="width:200px" class="btn btn-danger" style="color: rgb(225, 27, 57); font-size:17px;" href="{{url('canceled',$appoints->id)}}">Rad qilish</a>
-               <br><br>
-                <a style="width:200px" class="btn btn-primary" style="color: #f1f1f3; font-size:17px;" href="{{url('emailview',$appoints->id)}}">Javob berish</a>
-             
-            </td>
-          </tr>
-         </table>
+         
+         @include('admin.completetable')
+         
          
         </div>
     
